@@ -1,0 +1,5 @@
+<% if @name.blank? and @adjec.blank? %>
+	<h1><%= @text %></h1>
+<% else %>
+	<h1><%= @name + " is so " + @adjec %></h1>
+<% end %>
